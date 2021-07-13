@@ -2,45 +2,35 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:cursive;
+    font-family: cursive,sans-serif;
+    color: black;
 }
-body {
-    background-image: linear-gradient(to right, #000000, #532623, #975420, #bb9900, #a8eb12);
+body{
+    background-color: rgb(83, 231, 145);
 }
-.header{
-    font-size: 34px;
-    color: darkgrey;
-    display: flex;
-    justify-content: center;
-}
-.btn{
-    font-size: 34px;
-    color: darkgrey;
-    display: flex;
-    justify-content: center;
-    width: auto;
-}
-.section{
-    background-color: darksalmon;
+h1{
+    font-size: 50px;
     text-align: center;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 80px;
-    border-top-left-radius: 60px;
-    border-top-right-radius: 80px;
-    padding: 30px;
-    font-size: 34px;
-    margin-top: 100px;
-    margin: 20px;
+}
+#main{
+    display: grid;
+    place-content: center;
+    background-color: white;
+    margin: 50px;
+    font-size: 45px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.contain{
+
+}
+.start{
+    text-align: center;  
+    margin-bottom: 100px;
 }
 a{
-    font-size: 34px;
-    background-color:deepskyblue;
-    outline: none;
-    align-items: center;
-    padding: 30px;
-    border-radius: 30px;
-    border-color: gold;
-    box-shadow: 10px 10px 30px rgb(214, 10, 225);
-    margin-top: 100px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
     text-decoration: none;
 }
